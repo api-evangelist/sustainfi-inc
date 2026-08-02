@@ -1,4 +1,16 @@
 aid: sustainfi-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sustainfi-inc.png
 name: SUSTAINFI INC.
 description: SUSTAINFI INC. is a company surfaced as a portfolio company of 500-global and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -23,3 +35,11 @@ maintainers:
 common:
 - type: Website
   url: https://sustainfi.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: sustainfi.com is a parked GoDaddy domain (parking lander; all paths soft-200
+    to /lander). No API surface, developer portal, docs, or genuine .well-known/llms.txt.
+    app.sustainfi.com is a leftover client-rendered Next.js shell. Nothing to enrich.
