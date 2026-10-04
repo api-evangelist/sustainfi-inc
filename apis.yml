@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sustainfi-inc.png
-name: SUSTAINFI INC.
+name: SUSTAINFI
 description: SUSTAINFI INC. is a company surfaced as a portfolio company of 500-global and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/sustainfi-inc/refs/heads/main/apis.yml
@@ -54,3 +54,4 @@ x-enrichment:
   note: sustainfi.com is a parked GoDaddy domain (parking lander; all paths soft-200
     to /lander). No API surface, developer portal, docs, or genuine .well-known/llms.txt.
     app.sustainfi.com is a leftover client-rendered Next.js shell. Nothing to enrich.
+x-legal-name: SUSTAINFI INC.
